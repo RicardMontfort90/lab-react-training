@@ -5,11 +5,11 @@ const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
         <div className="id-card">
             <img src={picture} alt={`${firstName} ${lastName}`}/>
             <div className="id-card-info">
-                <div><strong>First Name: </strong></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div><strong>First Name: </strong>{firstName}</div>
+                <div><strong></strong>{}</div>
+                <div><strong></strong>{}</div>
+                <div><strong></strong>{}</div>
+                <div><strong></strong>{}</div>
             </div>
         </div>
     )
