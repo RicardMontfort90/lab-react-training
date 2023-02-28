@@ -50,7 +50,17 @@ function App() {
           color="white"
         />
 
-        
+        <CreditCard
+          type="Master Card"
+          number="0123456789010995"
+          expirationMonth={3}
+          expirationYear={2021}
+          bank="N26"
+          owner="Maxence Bouret"
+          bgColor="#eeeeee"
+          color="#222222"
+        />
+
       </div>
     </div>
   );
