@@ -9,4 +9,5 @@ const Random = ({min, max }) => {
     ); 
 };
 
+
 export default Random;
