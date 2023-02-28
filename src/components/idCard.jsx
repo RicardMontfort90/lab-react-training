@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
     return (
