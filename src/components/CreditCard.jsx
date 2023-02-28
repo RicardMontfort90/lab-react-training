@@ -10,7 +10,7 @@ const CreditCard = ({
     bgColor,
     color,
 }) => {
-    const cardType = type === 'Visa' ? './public/visa.png' : '/public/master-card.svg';
+    const cardType = type === 'Visa' ? '../assets/images/visa.png' : '../assets/images/master-card.svg';  /* Why doesn't work? */
     const cardNumber = '**** **** **** ' + number.slice(12);
     const expiration = `${('0' + expirationMonth).slice(-2)}/${expirationYear
         .toString()

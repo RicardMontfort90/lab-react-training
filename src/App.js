@@ -61,7 +61,19 @@ function App() {
           color="#222222"
         />
 
+        <CreditCard
+          type="Visa"
+          number="0123456789016984"
+          expirationMonth={12}
+          expirationYear={2019}
+          bank="Name of the Bank"
+          owner="Firstname Lastname"
+          bgColor="#ddbb55"
+          color="white"
+        />
       </div>
+
+      
     </div>
   );
 }
