@@ -6,7 +6,7 @@ function LikeButton() {
     const ButtonColors = ['purple','blue','green','yellow','orange','red'];
 
     const ChangeButtonColors = {
-        Change : `${ButtonColors[Math.floor(Math.random()*ButtonColors.length)]}`
+        BackgroundColor : `${ButtonColors[Math.floor(Math.random()*ButtonColors.length)]}`
     };
     
     
