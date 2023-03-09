@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import IdCard from './components/idCard';
 import Greetings from './components/Greetings';
 import Random from './components/Random';
@@ -6,7 +7,8 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
-import './App.css';
+import LikeButton from './components/LikeButton';
+
 
 function App() {
   return (
@@ -101,6 +103,12 @@ function App() {
           licensePlate: "BE33ER"
         }}
       />
+
+      <div>
+        <LikeButton />
+      </div>
+
+
     </div>
   );
 }
