@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const DriverCard = ({ name, rating, img, car }) => {
 
     const filledStars = Math.round(rating);
